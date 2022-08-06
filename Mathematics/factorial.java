@@ -4,8 +4,8 @@ public class factorial {
     public int factorial(int n) {
         if (n == 0)
             return 1;
-        else
-            return n * factorial(n - 1);
+        
+        return n * factorial(n - 1);
     }
     public int factorialIterative(int n) {
        if(n==0)return 1;
