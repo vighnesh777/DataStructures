@@ -1,11 +1,10 @@
 package Mathematics;
 import java.util.*;
 public class factorial {
-    public int factorial(int n) {
+    public int factorialn(int n) {
         if (n == 0)
             return 1;
-        
-        return n * factorial(n - 1);
+        return n * factorialn(n - 1);
     }
     public int factorialIterative(int n) {
        if(n==0)return 1;
@@ -21,7 +20,7 @@ public class factorial {
         try (Scanner sc = new Scanner(System.in)) {
             int n = sc.nextInt();
             System.out.println("Iterative :  "+new factorial().factorialIterative(n));
-            System.out.println("Recursive :  "+new factorial().factorial(n));
+            System.out.println("Recursive :  "+new factorial().factorialn(n));
             
         }
     }

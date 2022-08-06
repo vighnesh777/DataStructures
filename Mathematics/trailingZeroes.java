@@ -3,7 +3,7 @@ import java.util.*;
 public class trailingZeroes {
     public int countZeroes(int n)
     {
-        int fact=new factorial().factorial(n);
+        int fact=new factorial().factorialn(n);
         int count=0;
         
         while(fact%10==0)
